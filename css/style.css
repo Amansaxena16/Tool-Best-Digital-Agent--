@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* navbar start from here  */
+.logo_image {
+    width: 125px;
+    margin: 0px 10px;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important; 
+   
+}
+.navbar-nav li a{
+    margin: 0px 10px;
+    color: #fff !important;
+    font-weight: 600;
+}
+.fa-bars{
+    color: #fff !important  ;
+    font-size: 30px;
+}
+/* navbar end here  */
+
+/* banner section start from here  */
+.banner .banner_start {
+    height: 500px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.banner .banner_start .container .row .banner_heading {
+    margin-top: 140px;
+}
+.banner .banner_start .container .row .banner_heading h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+.banner .banner_start .container .row .banner_para {
+    margin-top: 15px;
+}
+.banner .banner_start .container .row .banner_para span {
+    font-size: 13px;
+    color: #fff;
+}
+.banner .banner_start .container .row .banner_icon {
+    margin-top: 15px;
+}
+.banner .banner_start .container .row .banner_icon span {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 13px;
+}
+.banner .banner_start .container .row .banner_icon img {
+    width: 35px;
+}
+
+.banner .banner_start .container .row .banner_home_img {
+    margin-top: 30px;
+}
+.banner .banner_start .container .row .banner_home_img a img {
+    width: 480px;
+}
+/* banner section end here  */
+
+/* services section start from here  */
+.services .container .row .services_heading h2 {
+    font-family: system-ui;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.services .container .row .box .services_img {
+    display: flex;
+    justify-content: center;
+}
+.services .container .row .box .services_img a img {
+    width: 115px;
+    display: block;
+}
+.services .container .row .box .services_names {
+    text-align: center;
+    margin-top: 20px;
+}
+.services .container .row .box .services_names span {
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+    font-family: system-ui;
+}
+.services .container .row .box .services_para  {
+    text-align: center;
+    margin-top: 6px;
+    line-height: 20px
+}
+.services .container .row .box .services_para span {
+    font-size: 14px;
+    color: grey;
+    font-family: system-ui;
+    
+}
+
+
+.services .container .row .service_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .container .row .service_btn a {
+    font-size: 16px;
+    padding: 4px 14px;
+    display: block;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.services .container .row .service_btn a:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+/* services sectin end here  */
+
+
+/* client say section start from here  */
+.client .container .row .client_heading  {
+    font-family: system-ui;
+    font-size: 35px;
+    text-align: center;
+}
+.client .container .row .client_review_box_1 {
+    width: 65%;
+    margin: auto
+}
+.client .container .row .client_review_box_1 .client_review span {
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.client .container .row .client_review_box_1 .client_profile .client_img {
+    width: 45px;
+}
+.client .container .row .client_review_box_1 .client_profile .client_img a {
+    display: block;
+}
+.client .container .row .client_review_box_1 .client_profile .client_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.client .container .row .client_review_box_1 .client_profile {
+    display: flex;
+    margin-top: 10px;
+}
+.client .container .row .client_review_box_1 .client_profile .client_info {
+    line-height: 14px;
+    margin-left: 13px;
+}
+.client .container .row .client_review_box_1 .client_profile .client_info .name {
+    color: black;
+    font-weight: 600;
+}
+.client .container .row .client_review_box_1 .client_profile .client_info span {
+    font-size: 11px;
+}
+/* client say section end here  */
+
+
+/* social media section start from here  */
+.social_media {
+    margin: 60px 0px ;
+}
+.social_media .container .social_media_heading {
+    text-align: center;
+}
+.social_media .container .social_media_heading span {
+    font-size: 35px;
+    font-weight: 600;
+}
+.social_media .container .social_icon {
+    padding: 25px 0px;
+}
+.social_media .container .social_icon .row .col {
+    display: flex;
+    justify-content: center;
+}
+.social_media .container .social_icon a{
+    width: 60px;
+    display: block;
+}
+.social_media .container .social_icon a img{
+    width: 100%;
+}
+/* social media section end here  */
+
+/* .footer start from here  */
+.footer{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.footer .container-fluid .container .row .footer_logo {
+    width: 120px;
+}
+.footer .container-fluid .container .row .footer_logo img {
+    width: 100%;
+}
+.footer .container-fluid .container .row .footer_info {
+    padding: 25px 0px ;
+}
+.footer .container-fluid .container .row .footer_info p {
+    font-size: 14px;
+    color: #fff;
+}
+.footer .container-fluid .container .row .contact_us_heading span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer .container-fluid .container .row .contact {
+    margin: 20px 0px;
+}
+.footer .container-fluid .container .row .contact a {
+    display: flex;
+    align-items: center;
+}
+.footer .container-fluid .container .row .contact a .fa {
+    width: 35px;
+    height: 35px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container-fluid .container .row .contact a span{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.footer .container-fluid .container .row .contact a:hover{
+    text-decoration: none;
+}
+.footer .container-fluid .container .row .get_in_touch span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;    
+}
+.footer .container-fluid .container .row .footer_email {
+    margin: 20px 0px ;
+}
+.footer .container-fluid .container .row .footer_email .email {
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 5px
+}
+.footer .container-fluid .container .row .like_btn {
+    display: flex;
+}
+.footer .container-fluid .container .row .like_btn a {
+    display: block;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+.footer .container-fluid .container .row .like_btn a:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+}
+
+.footer .container-fluid .container .blank_line {
+    border: 1px solid #ffffffc5;
+}
+/* footer start from here  */
